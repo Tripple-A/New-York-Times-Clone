@@ -1,0 +1,24 @@
+.youtube-video{
+    display:flex;
+    flex-direction: column;
+    width:600px;
+    margin-bottom:10px;
+    margin:0px auto;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.youtube-text{
+    font-size:20px;
+line-height: 1.6;
+}
+
+.iframe-video{
+    margin-top: 10px;
+    
+}
+.video-text{
+    margin-top: 1px;
+    margin-bottom:1px;
+    color:#666666;
+}
