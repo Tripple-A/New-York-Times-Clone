@@ -15,9 +15,34 @@ figure figcaption {
   .body-image figure img {
     height: 400px; }
 
+aside.floating-signup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 180vh;
+  left: 80vw;
+  width: 12vw;
+  z-index: -1; }
+  aside.floating-signup h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 5px; }
+  aside.floating-signup p {
+    font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 0;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    margin-bottom: 5px;
+    color: gray; }
+
 .article-header {
   width: 70vw;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-top: 10vh; }
   .article-header h1.article-heading {
     width: 45vw;
     font-size: 2.5vw;
@@ -27,7 +52,7 @@ figure figcaption {
     padding-left: 15vw; }
   .article-header figure figcaption {
     width: 75%;
-    font-size: 18px; }
+    font-size: 14px; }
 
 .article {
   display: flex;
@@ -36,32 +61,6 @@ figure figcaption {
   margin: 0 auto;
   margin-bottom: 10px;
   font-family: 'Times New Roman', Times, serif; }
-  .article .meta {
-    padding: 1.8rem 0; }
-    .article .meta .author {
-      color: black;
-      font-weight: bold;
-      padding: 1rem 0; }
-      .article .meta .author a {
-        color: black;
-        text-decoration: underline; }
-        .article .meta .author a:hover {
-          text-decoration: none; }
-    .article .meta .social {
-      float: right;
-      display: flex; }
-      .article .meta .social .fa {
-        padding: 0.4rem 0.5rem;
-        border: 1px solid #cdcdcd;
-        border-radius: 50%;
-        width: 2rem;
-        height: 2rem;
-        background: #cdcdcd;
-        margin-left: 0.7rem;
-        vertical-align: middle; }
-        .article .meta .social .fa:hover {
-          border: 1px solid #cdcdcd;
-          background: transparent; }
   .article .article-text {
     font-size: 20px;
     line-height: 1.6; }
@@ -73,10 +72,66 @@ figure figcaption {
       line-height: 30px;
       font-size: 20px;
       color: #333; }
+      .article .article-text p a {
+        text-decoration: underline; }
     .article .article-text .subheading {
       font-weight: 700; }
     .article .article-text .article-image figure figcaption {
       width: 100%;
       font-size: 10px; }
+  .article .in-text-links {
+    text-align: center; }
+    .article .in-text-links p {
+      font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+      font-size: 17px;
+      line-height: 20px; }
+      .article .in-text-links p a {
+        text-decoration: none;
+        color: #326891; }
+    .article .in-text-links hr {
+      width: 15%; }
+  .article .meta {
+    padding: 1.8rem 0; }
+    .article .meta .author {
+      color: black;
+      font-weight: bold;
+      padding: 1rem 0; }
+      .article .meta .author a {
+        color: black;
+        text-decoration: underline; }
+        .article .meta .author a:hover {
+          text-decoration: none; }
+    .article .meta p {
+      display: flex;
+      align-items: baseline;
+      justify-content: flex-end; }
+      .article .meta p .date {
+        font-family: 'Libre Franklin', helvetica, arial, sans-serif;
+        float: left;
+        margin-right: auto; }
+      .article .meta p .social {
+        float: right; }
+        .article .meta p .social .fa {
+          padding: 0.4rem 0.5rem;
+          border: 1px solid #cdcdcd;
+          border-radius: 50%;
+          width: 2rem;
+          height: 2rem;
+          background: #cdcdcd;
+          margin-left: 0.7rem;
+          vertical-align: middle; }
+          .article .meta p .social .fa:hover {
+            border: 1px solid #cdcdcd;
+            background: transparent; }
+      .article .meta p .other i {
+        max-height: 2rem;
+        padding-top: 0.4rem;
+        margin-left: 0.7rem; }
+
+.content-iframe {
+  max-width: 100%; }
+  .content-iframe .container {
+    margin: 0 auto;
+    max-width: 945px; }
 
 /*# sourceMappingURL=main.css.map */
