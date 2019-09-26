@@ -69,4 +69,7 @@
   .btn-blue:hover {
     background: #446177; }
 
+.btn-large {
+  padding: 0.5rem 5rem; }
+
 /*# sourceMappingURL=header.css.map */
