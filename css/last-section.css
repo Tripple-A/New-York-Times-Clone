@@ -22,10 +22,13 @@
   /* float:right; */
 }
 
-.news-aside {
-  display: flex;
+      .news-aside{
+          display:flex;
+          /* width:100%; */
+          /* justify-content: space-around */
+          margin-top:20px
+      }
 
   /* width:100%; */
 
   /* justify-content: space-around */
-}
