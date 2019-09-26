@@ -43,21 +43,47 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.logo{
+  width:15%;
+}
+
+.homepage{
+  font-size:80%;
+  color:#6288A5;
+  float:right;
+}
+
+.bold{
+  font-weight:bold
+}
+
+.ny-logo{
+  width:75%;
+  margin:0px auto;
+  padding-bottom:10px;
+  border-top:2px solid #999999;
+  padding-top:10px;
+  margin-top: 3%;
+
+}
+
 .footer-lists {
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 5%;
-  border-top: 2px solid grey;
-
-  /* top:70px; */
   position: relative;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:10px;
+  line-height: 1.2
 }
 
 .subscribe {
-  border-left: 1px solid black;
+  border-left: 1px solid #999999;
   height: 300px;
+  padding-left:10px;
 }
 
 .footer-ul {
