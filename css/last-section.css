@@ -21,7 +21,7 @@
     padding-bottom:5px
 }
 
-.grid-news>.border-line{
+.grid-news>.border-line , .editor>.border-line{
 margin-left:2%;
 }
 
