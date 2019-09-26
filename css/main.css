@@ -130,6 +130,8 @@ aside.floating-signup {
 
 .content-iframe {
   max-width: 100%; }
+  .content-iframe iframe {
+    width: 100%; }
   .content-iframe .container {
     margin: 0 auto;
     max-width: 945px; }
