@@ -53,10 +53,6 @@ footer a:hover {
   float:right;
 }
 
-.bold{
-  font-weight:bold
-}
-
 .ny-logo{
   width:75%;
   margin:0px auto;
@@ -77,13 +73,34 @@ footer a:hover {
   padding-left:10%;
   padding-right:10%;
   padding-top:10px;
-  line-height: 1.2
+  line-height: 1.2;
+  font-size:16px;
 }
 
-.subscribe {
+.subscribe ul{
   border-left: 1px solid #999999;
   height: 300px;
-  padding-left:10px;
+  padding-left:15px;
+}
+
+.bold{
+  font-weight:bold;
+  font-size:14px;
+}
+
+.home{
+font-size:17px;
+padding-top:4%;
+padding-bottom: 5%
+
+}
+
+.smaller{
+  font-size:11px
+}
+
+.icons{
+  padding-right: 8px
 }
 
 .footer-ul {

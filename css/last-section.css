@@ -9,17 +9,6 @@
     display:flex;
 }
 
-/*.grid-news {
-  display: grid;
-  grid-template-columns: 200px 200px 200px;
-  grid-column-gap: 10%;
-  grid-row-gap: 12%;
-  width: 80%;
-  margin-bottom: 15%;
-  margin-left: 7%;
-
-  /* padding-left; */
-/* } */
 
 .aside-news {
   width: 25%;
@@ -44,7 +33,8 @@
   
 .news-images>figure>figcaption{
     font-size: 18px;
-    color:black
+    color:#121212;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
       .news-container{
