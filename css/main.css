@@ -128,6 +128,48 @@ aside.floating-signup p {
   width: 15%;
 }
 
+.article aside.aside-editor-picks {
+  width: 16vw;
+  position: absolute;
+  left: 77vw;
+  top: 290vh;
+  z-index: -1;
+}
+
+.article aside.aside-editor-picks h2 {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #b3b3b3;
+  margin-bottom: 0.8rem;
+}
+
+.article aside.aside-editor-picks div {
+  display: flex;
+  align-items: center;
+}
+
+.article aside.aside-editor-picks div img {
+  width: 6vw;
+  height: 6vw;
+  margin: 0 0.5vw 3vh 0;
+}
+
+.article aside.aside-editor-picks div a {
+  font-size: 0.85rem;
+  color: #272727;
+  padding-left: 1rem 0;
+}
+
+.article .meta .author a {
+  color: black;
+  text-decoration: underline;
+}
+
+.article aside.aside-editor-picks div a:hover {
+  text-decoration: underline;
+}
+
 .article .meta {
   padding: 1.8rem 0;
 }
@@ -136,11 +178,6 @@ aside.floating-signup p {
   color: black;
   font-weight: bold;
   padding: 1rem 0;
-}
-
-.article .meta .author a {
-  color: black;
-  text-decoration: underline;
 }
 
 .article .meta .author a:hover {
